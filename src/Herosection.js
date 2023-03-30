@@ -13,7 +13,7 @@ export default function Herosection() {
 
   function Toast() {
     toast("Please Fill up All Required Fields", {
-      autoClose: 500000,
+      autoClose: 5000,
       closeButton: false,
       className: "toast-message",
       draggablePercent: 50,
@@ -52,19 +52,19 @@ export default function Herosection() {
     Unit_No: "",
   });
   const [fielderoor, setFielderoor] = useState({
-    City_Error: "This field Is Required",
-    ProjectBuilding_Error: "This field Is Required",
-    Locality_Error: "This field Is Required",
-    Areaone_Error: "This field Is Required",
-    Area_Error: "This field Is Required",
-    Displayarea_Error: "This field Is Required",
-    Price_Error: "This field Is Required",
-    Upload_Picture_Error: "This field Is Required",
-    Maintance_Error: "This field Is Required",
-    maintance_select_Error: "This field Is Required",
-    Plotno_Error: "This field Is Required",
-    Floor_Error: "This field Is Required",
-    Unit_Error: "This field Is Required",
+    // City_Error: "This field Is Required",
+    // ProjectBuilding_Error: "This field Is Required",
+    // Locality_Error: "This field Is Required",
+    // Areaone_Error: "This field Is Required",
+    // Area_Error: "This field Is Required",
+    // Displayarea_Error: "This field Is Required",
+    // Price_Error: "This field Is Required",
+    // Upload_Picture_Error: "This field Is Required",
+    // Maintance_Error: "This field Is Required",
+    // maintance_select_Error: "This field Is Required",
+    // Plotno_Error: "This field Is Required",
+    // Floor_Error: "This field Is Required",
+    // Unit_Error: "This field Is Required",
   });
   const [fildpattern, setPattern] = useState({
     Price_Pattern: "^[1-9]d*$",
@@ -187,7 +187,7 @@ export default function Herosection() {
         } else if (val === 2) {
           alert("Your Form Submited");
         } else {
-          alert("Please Fill up All Required Fields");
+          Toast();
         }
       } else {
         Toast();

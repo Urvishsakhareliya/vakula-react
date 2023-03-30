@@ -241,7 +241,7 @@
      font-weight: 500;
  }
 
- input:invalid[focused="true"]~.error {
+ /* input:invalid[focused="true"]~.error {
      display: block;
  }
 
@@ -260,7 +260,7 @@
 
  .City-item input:invalid[focused="true"]::placeholder {
      color: #E0144C;
- }
+ } */
 
  .filePath {
      color: var(--color-primary) !important;
