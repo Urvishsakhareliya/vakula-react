@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/vakula-react/static/css/main.4ececa4c.css",
-    "main.js": "/vakula-react/static/js/main.c7679cf6.js",
-    "static/js/787.28cb0dcd.chunk.js": "/vakula-react/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/vakula-react/static/css/main.c008788c.css",
+    "main.js": "/vakula-react/static/js/main.bf178239.js",
+    "static/js/787.79ae30ac.chunk.js": "/vakula-react/static/js/787.79ae30ac.chunk.js",
     "static/media/Nav-logo.png": "/vakula-react/static/media/Nav-logo.61c4ebf82d0e18fa1cda.png",
     "static/media/poppins-v20-latin-300.ttf": "/vakula-react/static/media/poppins-v20-latin-300.6cc700ae42da226508cf.ttf",
     "static/media/poppins-v20-latin-regular.ttf": "/vakula-react/static/media/poppins-v20-latin-regular.80946c0880373b223d9c.ttf",
     "static/media/poppins-v20-latin-500.ttf": "/vakula-react/static/media/poppins-v20-latin-500.c5bf954f85d4e113650f.ttf",
     "static/media/poppins-v20-latin-700.ttf": "/vakula-react/static/media/poppins-v20-latin-700.69376764e54ecb0c5b5b.ttf",
     "index.html": "/vakula-react/index.html",
-    "main.4ececa4c.css.map": "/vakula-react/static/css/main.4ececa4c.css.map",
-    "main.c7679cf6.js.map": "/vakula-react/static/js/main.c7679cf6.js.map",
-    "787.28cb0dcd.chunk.js.map": "/vakula-react/static/js/787.28cb0dcd.chunk.js.map"
+    "main.c008788c.css.map": "/vakula-react/static/css/main.c008788c.css.map",
+    "main.bf178239.js.map": "/vakula-react/static/js/main.bf178239.js.map",
+    "787.79ae30ac.chunk.js.map": "/vakula-react/static/js/787.79ae30ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ececa4c.css",
-    "static/js/main.c7679cf6.js"
+    "static/css/main.c008788c.css",
+    "static/js/main.bf178239.js"
   ]
 }
