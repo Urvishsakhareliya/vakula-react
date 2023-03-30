@@ -15,9 +15,7 @@ export default function AdditionalDetails(props) {
     fildpattern,
     removeData,
   } = props;
-
-  console.log(formvalues.Upload_Picture.length === 0);
-  console.log(formvalues.Upload_Picture.length);
+ 
   return (
     <>
       <div className="row Property-Pictures box mb150  ">
