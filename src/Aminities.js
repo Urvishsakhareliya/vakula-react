@@ -11,8 +11,7 @@ export default function Aminities(props) {
     handleFocus,
     focused,
     fildpattern,
-  } = props;
-  // console.log(formvalues.PropertyType_one);
+  } = props; 
   return (
     <>
       {(formvalues.Rent_Sale === "Rent" || formvalues.Rent_Sale === "sale") &&

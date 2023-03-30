@@ -40,8 +40,7 @@ export default function AdditionalDetails(props) {
                   focused={focused.toString()}
                   onBlur={handleFocus}
                 />
-              </label>
-              {/* <p className="filePath">{formvalues.Upload_Picture}</p> */}
+              </label> 
             </div>
 
             <p className="mb-1">

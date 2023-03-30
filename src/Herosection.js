@@ -73,47 +73,7 @@ export default function Herosection() {
   const [focused, setFocused] = useState(false);
 
   function nextRedireact(e) {
-    // if (
-    //   formvalues.Rent_Sale === "sale" &&
-    //   formvalues.Buildingtype === "Residential" &&
-    //   formvalues.PropertyType === "OpenPlot"
-    // ) {
-    //   if (
-    //     val === 0 &&
-    //     formvalues.City_Name !== "" &&
-    //     formvalues.ProjectBuilding_Name !== "" &&
-    //     formvalues.Locality_Name !== "" &&
-    //     formvalues.Areaone_Name !== "" &&
-    //     formvalues.Area_Name !== "" &&
-    //     formvalues.Price_Name !== ""
-    //   ) {
-    //     setVal(1);
-    //   } else if (val === 1 && formvalues.Upload_Picture !== "") {
-    //     setVal(2);
-    //   } else if (val === 2) {
-    //     if (window.confirm()) window.location.reload();
-    //   }
-    // } else if (
-    //   formvalues.Rent_Sale !== "sale" ||
-    //   formvalues.Buildingtype !== "Residential" ||
-    //   formvalues.PropertyType !== "OpenPlot"
-    // ) {
-    //   if (
-    //     val === 0 &&
-    //     formvalues.City_Name !== "" &&
-    //     formvalues.ProjectBuilding_Name !== "" &&
-    //     formvalues.Locality_Name !== "" &&
-    //     formvalues.Areaone_Name !== "" &&
-    //     formvalues.Price_Name !== ""
-    //   ) {
-    //     setVal(1);
-    //   } else if (val === 1 && formvalues.Upload_Picture !== "") {
-    //     setVal(2);
-    //   } else if (val === 2) {
-    //     window.confirm(window.location.reload());
-    //   }
-    // }
-
+      
     if (formvalues.Rent_Sale === "sale" || formvalues.Rent_Sale === "Rent") {
       if (
         formvalues.Buildingtype === "Commercial" &&
@@ -142,9 +102,7 @@ export default function Herosection() {
               formvalues.Maintance !== ""))
         ) {
           setVal(1);
-        }
-        // formvalues.PropertyType_one === "Commercial_Office_Space"
-        else if (
+        }else if (
           val === 1 &&
           formvalues.Upload_Picture.length > 0 &&
           (formvalues.PropertyType_one === "Commercial_Land" ||
@@ -247,8 +205,7 @@ export default function Herosection() {
     if (e.target.name === "Displayarea_Name") {
       setFormValues({ ...formvalues, [e.target.name]: e.target.checked });
     }
-    if (e.target.name === "Upload_Picture") {
-      console.log(e.target.files.length !== 0);
+    if (e.target.name === "Upload_Picture") { 
       const file = e.target.files[0];
       UploadImage(file);
     }

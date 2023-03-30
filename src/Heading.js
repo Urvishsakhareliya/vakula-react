@@ -3,7 +3,7 @@ import { ProgressBar } from 'react-bootstrap'
 
 export default function Heading(props) {
   const{val}=props;
-    // console.log(props);
+   
   return (
     <>
     <div className="Property-conten text-center">
@@ -35,13 +35,7 @@ export default function Heading(props) {
 
             </div>
             <p>Additional Details</p>
-          </div>
-          {/* <ProgressBar
-            className="ProgressBar-item"
-            now={props.progress2}
-            label={`${props.progress2}%`}
-            visuallyHidden
-          /> */}
+          </div> 
         </li>
 
         <li className="three-items">
