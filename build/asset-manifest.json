@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vakula-react/static/css/main.c008788c.css",
-    "main.js": "/vakula-react/static/js/main.bf178239.js",
+    "main.js": "/vakula-react/static/js/main.d4dcab92.js",
     "static/js/787.79ae30ac.chunk.js": "/vakula-react/static/js/787.79ae30ac.chunk.js",
     "static/media/Nav-logo.png": "/vakula-react/static/media/Nav-logo.61c4ebf82d0e18fa1cda.png",
     "static/media/poppins-v20-latin-300.ttf": "/vakula-react/static/media/poppins-v20-latin-300.6cc700ae42da226508cf.ttf",
@@ -10,11 +10,11 @@
     "static/media/poppins-v20-latin-700.ttf": "/vakula-react/static/media/poppins-v20-latin-700.69376764e54ecb0c5b5b.ttf",
     "index.html": "/vakula-react/index.html",
     "main.c008788c.css.map": "/vakula-react/static/css/main.c008788c.css.map",
-    "main.bf178239.js.map": "/vakula-react/static/js/main.bf178239.js.map",
+    "main.d4dcab92.js.map": "/vakula-react/static/js/main.d4dcab92.js.map",
     "787.79ae30ac.chunk.js.map": "/vakula-react/static/js/787.79ae30ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c008788c.css",
-    "static/js/main.bf178239.js"
+    "static/js/main.d4dcab92.js"
   ]
 }
